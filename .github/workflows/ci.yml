@@ -23,7 +23,6 @@ jobs:
 
       - name: Validar el HTML
         run: npx --yes html-validate@9 "**/*.html"
-
   enlaces:
     name: Enlaces vivos
     runs-on: ubuntu-latest
@@ -46,7 +45,6 @@ jobs:
         with:
           args: --no-progress --max-retries 2 "**/*.html"
           fail: true
-
   formato:
     name: Formato
     runs-on: ubuntu-latest
