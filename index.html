@@ -1,25 +1,143 @@
 <!doctype html>
+
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Portfolio de Carlos Valls Mulet</title>
+
     <meta
       name="description"
       content="Portfolio de Carlos Valls Mulet, estudiante de Desarrollo de Aplicaciones Web."
     />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <header>
+      <nav>
+        <a href="#" class="logo">Carlos Valls</a>
+
+        <div class="nav-links">
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#estudios">Estudios</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
     <main>
-      <h1>Carlos Valls Mulet</h1>
-      <section>
-        <h2>Sobre mí</h2>
+      <section class="hero">
+        <div class="hero-text">
+          <p class="saludo">Hola, soy</p>
+
+          <h1>Carlos Valls Mulet</h1>
+
+          <h2>Estudiante de Desarrollo de Aplicaciones Web</h2>
+
+          <p>
+            Me gusta el desarrollo web y aprender a crear páginas y aplicaciones
+            que sean útiles, modernas y fáciles de utilizar.
+          </p>
+
+          <div class="botones">
+            <a href="#proyectos" class="boton">Ver mis proyectos</a>
+            <a href="#contacto" class="boton boton-secundario">Contactar</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="seccion">
+        <p class="etiqueta">SOBRE MÍ</p>
+        <h2>Un poco sobre mí</h2>
+
         <p>
-          Soy estudiante de Desarrollo de Aplicaciones Web y estoy aprendiendo a
-          crear páginas y aplicaciones web. En este portfolio voy a mostrar
-          algunos de los proyectos y trabajos que vaya realizando.
+          Soy estudiante de Desarrollo de Aplicaciones Web (DAW). Me interesa
+          especialmente el mundo del desarrollo web y todo lo relacionado con la
+          creación de páginas y aplicaciones.
+        </p>
+
+        <p>
+          Durante mis estudios he trabajado con tecnologías de desarrollo
+          frontend y backend, bases de datos y herramientas para crear y
+          gestionar proyectos web. Actualmente sigo aprendiendo y mejorando mis
+          conocimientos mediante diferentes proyectos y prácticas.
         </p>
       </section>
+
+      <section id="estudios" class="seccion">
+        <p class="etiqueta">ESTUDIOS</p>
+        <h2>Formación</h2>
+
+        <div class="tarjeta">
+          <div class="icono">🎓</div>
+
+          <div>
+            <h3>Desarrollo de Aplicaciones Web</h3>
+            <p class="centro">IES Lluís Simarro</p>
+            <p>
+              Formación en desarrollo de aplicaciones web, programación, bases
+              de datos, desarrollo frontend y backend.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="seccion">
+        <p class="etiqueta">PROYECTOS</p>
+        <h2>Mis proyectos</h2>
+
+        <div class="proyectos">
+          <article class="proyecto">
+            <span class="numero">01</span>
+            <h3>Aplicaciones web</h3>
+            <p>
+              Proyectos realizados durante mis estudios utilizando HTML, CSS,
+              JavaScript y otras tecnologías web.
+            </p>
+          </article>
+
+          <article class="proyecto">
+            <span class="numero">02</span>
+            <h3>Desarrollo backend</h3>
+            <p>
+              Prácticas y proyectos relacionados con servidores, APIs, bases de
+              datos y desarrollo de aplicaciones.
+            </p>
+          </article>
+
+          <article class="proyecto">
+            <span class="numero">03</span>
+            <h3>Proyectos personales</h3>
+            <p>
+              Ideas y proyectos propios para seguir practicando y aprendiendo
+              nuevas tecnologías.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="seccion contacto">
+        <p class="etiqueta">CONTACTO</p>
+        <h2>¿Hablamos?</h2>
+
+        <p>
+          Si quieres contactar conmigo o conocer más sobre alguno de mis
+          proyectos, puedes ponerte en contacto conmigo.
+        </p>
+
+        <a href="mailto:vallscarlos456@gmail.com" class="boton">
+          Enviarme un correo
+        </a>
+      </section>
     </main>
+
+    <footer>
+      <p>© 2026 Carlos Valls Mulet</p>
+      <p>Portfolio personal · Desarrollo de Aplicaciones Web</p>
+    </footer>
   </body>
 </html>
