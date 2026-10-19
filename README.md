@@ -8,7 +8,7 @@ Portfolio personal de Carlos Valls Mulet, estudiante de Desarrollo de Aplicacion
 
 ## 2. Web publicada
 
-![Ver portfolio online](https://carvalmul.github.io/Portfolio/)
+[Ver portfolio online](https://carvalmul.github.io/Portfolio/)
 
 ## 3. Captura de pantalla
 
